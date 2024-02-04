@@ -20,7 +20,7 @@ def main():
         bucket_name = os.environ['s3_bucket']
         output_code += deploy_to_s3_without_html_extensions(bucket_name)
     else:
-        bucket_name = "bearcyclegame.com" 
+        bucket_name = "twoputtgame.com" 
         response = input("Sync s3 bucket with dist/*? (y/n)")
         if 'y' in response:
             output_code += deploy_to_s3_without_html_extensions(bucket_name)
