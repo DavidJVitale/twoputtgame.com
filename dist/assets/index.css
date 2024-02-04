@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(90deg, #3533ac, #73b5d5, #e6705e)
+}
+
+.btn-info {
+    --bs-btn-bg: #e6705e;
+    --bs-btn-border-color: #f87f6c;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#top-section-id {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+#about-section-id {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+#contact-section-id {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.crossfadeimg {
+    transition: opacity 1s;
+}
+
+.large-logo {
+    border-radius: 30px;
+}
+
+.outlined-text {
+    /*text-shadow: -1px -1px 0 #22222280, 1px -1px 0 #22222280, -1px 1px 0 #22222280, 1px 1px 0 #22222280;*/
+    /* I should do some outline here but too lazy, just bold lolol*/
+    font-weight: bold;
+}
